@@ -1,0 +1,18 @@
+AUDIO CNN -- TEST SET EVALUATION
+==================================================
+
+Architecture  : AudioCNN (4 conv blocks)
+Parameters    : 106,018
+Training time : 24.3 minutes
+Inference     : 10.25 ms/sample
+
+              precision    recall  f1-score   support
+
+       clean     0.9995    0.9995    0.9995      3853
+   profanity     0.9997    0.9997    0.9997      7844
+
+    accuracy                         0.9997     11697
+   macro avg     0.9996    0.9996    0.9996     11697
+weighted avg     0.9997    0.9997    0.9997     11697
+
+ROC-AUC: 1.0000
