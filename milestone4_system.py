@@ -1,26 +1,5 @@
 """
 Milestone 4 GUI — Multimodal Video Censorship System
-FYP: Chong Chun Kit (TP077436)
-
-Features:
-- Insert Video button + optional drag-and-drop
-- Start Censorship button
-- Download Video button
-- Elapsed-time timer + ETA display
-- True visual-stage progress from "Processed X/Y"
-- Indeterminate animation during Whisper transcription
-- Full system log
-
-Expected files:
-    milestone1_video_censorship.py
-    milestone2_audio_censorship.py
-    milestone3_multimedia.py
-    bad_words.txt
-    evaluation/audio/best_model.pt
-    runs/classify/yolov8_nsfw_classifier_v2/weights/best.pt
-
-Optional drag-and-drop:
-    pip install tkinterdnd2
 """
 
 from __future__ import annotations
